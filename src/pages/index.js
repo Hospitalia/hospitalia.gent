@@ -67,6 +67,7 @@ const IndexPage = () => (
             />
             <a
                 target="_blank"
+                rel="noopener noreferrer"
                 href="http://hospitalia.gent/assets/hospitalia-sem1.pdf"
                 class="button"
             >

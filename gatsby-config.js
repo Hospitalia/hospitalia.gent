@@ -18,13 +18,26 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `gatsby-starter-default`,
-                short_name: `starter`,
+                name: `Studentenclub Hospitalia`,
+                short_name: `hospi-gent`,
                 start_url: `/`,
-                background_color: `#663399`,
-                theme_color: `#663399`,
+                background_color: `#F3F7FA`,
+                theme_color: `#003C92`,
                 display: `minimal-ui`,
                 icon: `src/images/hospi-icon.png`, // This path is relative to the root of the site.
+            },
+        },
+        {
+            resolve: `gatsby-plugin-prefetch-google-fonts`,
+            options: {
+                fonts: [
+                    {
+                        family: `Roboto`,
+                    },
+                    {
+                        family: `Oswald`,
+                    },
+                ],
             },
         },
         // this (optional) plugin enables Progressive Web App + Offline functionality
