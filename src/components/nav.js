@@ -17,6 +17,7 @@ const Nav = () => (
             </Link>
             <Link to="/praesidium">Praesidium</Link>
             <Link to="/sponsors">Sponsors</Link>
+            <Link to="/ad-astra">Ad Astra</Link>
         </div>
     </nav>
 );

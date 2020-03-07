@@ -38,3 +38,8 @@ Welcome to Hospitalia's website! This site is built using GatsbyJS.
     The site is now running at `http://localhost:8000`!
 
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+
+
+## Contact
+
+Any questions or remarks regarding this website or repository may be directed at [web@hospitalia.gent](mailto:web@hospitalia.gent)

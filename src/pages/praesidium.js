@@ -6,10 +6,12 @@ import SEO from "../components/seo";
 
 const Praesidium = () => (
     <Layout>
-        <SEO title="Page two" />
-        <h1>Hi from the second page</h1>
-        <p>Welcome to page 2</p>
-        <Link to="/">Go back to the homepage</Link>
+        <div className="container">
+            <SEO title="Page two" />
+            <h1>Praesidium</h1>
+            <p>Welcome to Praesidium</p>
+            <Link to="/">Go back to the homepage</Link>
+        </div>
     </Layout>
 );
 
