@@ -1,0 +1,37 @@
+.praesidium {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.praesidium .card {
+    width: calc(50% - 8px);
+    margin-bottom: 16px;
+}
+.praesidium .card h3,
+.praesidium .card p {
+    margin: 0;
+}
+.praesidium .card:nth-of-type(odd) {
+    margin-right: 16px;
+}
+.praesidium .card {
+    flex-direction: column;
+}
+.praesidium .card .description {
+    margin-top: 8px;
+}
+.praesidium .person {
+    width: 100%;
+    margin: 0;
+}
+
+@media only screen and (max-width: 720px) {
+    .praesidium {
+        flex-direction: column;
+    }
+    .praesidium .card {
+        width: 100%;
+        margin-right: 0;
+    }
+}

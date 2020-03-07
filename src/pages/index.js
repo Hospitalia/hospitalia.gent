@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from "gatsby";
 import Header from "../components/header";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import Email from "../components/email";
+import Person from "../components/person";
 
 const IndexPage = () => {
     const data = useStaticQuery(graphql`
@@ -21,7 +21,7 @@ const IndexPage = () => {
         <Layout>
             <SEO title="Home" />
             <Header siteTitle={data.site.siteMetadata.title} />
-            <section className="container card">
+            <section className="container card intro">
                 <img
                     className="logo"
                     src="http://hospitalia.gent/assets/ad_astra.png"
@@ -82,19 +82,19 @@ const IndexPage = () => {
                 </p>
 
                 <div className="socials">
-                    <Email
+                    <Person
                         title="Praeses"
                         name="Liäm De Kegel"
                         email="praeses(at)hospitalia(dot)gent"
                         image="liam.jpg"
                     />
-                    <Email
+                    <Person
                         title="Schachtentemmer"
                         name="Christoph Boeykens"
                         email="temmer(at)hospitalia(dot)gent"
                         image="chris.jpg"
                     />
-                    <Email
+                    <Person
                         title="P.R."
                         name="Sieghe Parijs"
                         email="pr(at)hospitalia(dot)gent"
