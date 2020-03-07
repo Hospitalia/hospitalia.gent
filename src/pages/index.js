@@ -21,58 +21,85 @@ const IndexPage = () => {
         <Layout>
             <SEO title="Home" />
             <Header siteTitle={data.site.siteMetadata.title} />
-            <section className="container card">
-                <section className="intro">
-                    <h2>Welkom bij Hospitalia</h2>
-                    <p>
-                        Hospitalia is dé Gentse <em>studentenclub</em> voor de
-                        richtingen gezondheidszorg van de Arteveldehogeschool.
-                        Doorheen het academiejaar komen we op dinsdag om 21u
-                        samen in ons clubcafé 't Kofschip in de Overpoortstraat.
-                        Het praesidium voorziet dan verschillende leuke
-                        activiteiten en we organiseren ook regelmatig een
-                        cantus.
-                    </p>
+            <section class="container card">
+                <img
+                    class="logo"
+                    src="http://hospitalia.gent/assets/ad_astra.png"
+                    alt="Ad Astra logo"
+                />
+                <h3>
+                    1<span class="superscript">e</span> editie
+                </h3>
 
-                    <p>
-                        Studeer je <em>verpleegkunde</em>, <em>vroedkunde</em>,{" "}
-                        <em>mondzorg</em>, <em>ergotherapie</em>,{" "}
-                        <em>logopedie</em>, <em>audiologie</em> of{" "}
-                        <em>podologie</em> aan de Arteveldehogeschool? Kom dan
-                        zeker eens langs. Heb je zin om lid te worden van onze
-                        vereniging of zit je met andere vragen? Aarzel dan niet
-                        om ons te contacteren!
-                    </p>
+                <p>
+                    Ad Astra is ons semestrieel boekje. Deze allereerste editie
+                    is het resultaat van een samenwerking tussen enkele
+                    praesidiumleden, met de hulp van onze schachten en leden.
+                    Bekijk deze oogopslag van het eerste semester van 2019-2020
+                    en download Ad Astra!
+                </p>
 
-                    <p>
-                        Ben je sponsor of heb je interesse om met ons samen te
-                        werken? Dan hoort onze praeses Liäm graag meer van je.
-                        Voor vragen over de doop of lidmaatschap kan je terecht
-                        bij onze schachtentemmer Christoph. Voor andere vragen
-                        kan onze P.R. Sieghe je de nodige antwoorden bezorgen.
-                    </p>
+                <a
+                    target="_blank"
+                    href="http://hospitalia.gent/assets/ad_astra_sem1-2020.pdf"
+                    class="button"
+                >
+                    <img
+                        src="http://hospitalia.gent/assets/icons/download.png"
+                        alt="Ad Astra PDF Download"
+                    />
+                    Download Ad Adstra
+                </a>
+            </section>
 
-                    <div className="socials">
-                        <Email
-                            title="Praeses"
-                            name="Liäm De Kegel"
-                            email="praeses(at)hospitalia(dot)gent"
-                            image="liam.jpg"
-                        />
-                        <Email
-                            title="Schachtentemmer"
-                            name="Christoph Boeykens"
-                            email="temmer(at)hospitalia(dot)gent"
-                            image="chris.jpg"
-                        />
-                        <Email
-                            title="P.R."
-                            name="Sieghe Parijs"
-                            email="pr(at)hospitalia(dot)gent"
-                            image="sieghe.jpg"
-                        />
-                    </div>
-                </section>
+            <section class="container intro">
+                <h2>Welkom bij Hospitalia</h2>
+                <p>
+                    Hospitalia is dé Gentse <em>studentenclub</em> voor de
+                    richtingen gezondheidszorg van de Arteveldehogeschool.
+                    Doorheen het academiejaar komen we op dinsdag om 21u samen
+                    in ons clubcafé 't Kofschip in de Overpoortstraat. Het
+                    praesidium voorziet dan verschillende leuke activiteiten en
+                    we organiseren ook regelmatig een cantus.
+                </p>
+
+                <p>
+                    Studeer je <em>verpleegkunde</em>, <em>vroedkunde</em>,{" "}
+                    <em>mondzorg</em>, <em>ergotherapie</em>, <em>logopedie</em>
+                    , <em>audiologie</em> of <em>podologie</em> aan de
+                    Arteveldehogeschool? Kom dan zeker eens langs. Heb je zin om
+                    lid te worden van onze vereniging of zit je met andere
+                    vragen? Aarzel dan niet om ons te contacteren!
+                </p>
+
+                <p>
+                    Als je sponsor bent of je hebt interesse om met ons samen te
+                    werken, dan hoort onze praeses Liäm graag meer van je. Voor
+                    vragen over de doop of lidmaatschap kan je terecht bij onze
+                    schachtentemmer Christoph. Voor andere vragen kan onze P.R.
+                    Sieghe je de nodige antwoorden bezorgen.
+                </p>
+
+                <div className="socials">
+                    <Email
+                        title="Praeses"
+                        name="Liäm De Kegel"
+                        email="praeses(at)hospitalia(dot)gent"
+                        image="liam.jpg"
+                    />
+                    <Email
+                        title="Schachtentemmer"
+                        name="Christoph Boeykens"
+                        email="temmer(at)hospitalia(dot)gent"
+                        image="chris.jpg"
+                    />
+                    <Email
+                        title="P.R."
+                        name="Sieghe Parijs"
+                        email="pr(at)hospitalia(dot)gent"
+                        image="sieghe.jpg"
+                    />
+                </div>
             </section>
 
             <section className="container kalender">
