@@ -1,26 +1,16 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { useStaticQuery, graphql } from "gatsby";
 
-import Header from "./header";
 import Footer from "./footer";
+import Nav from "./nav";
+
 import "./normalize.css";
 import "./main.css";
 
 const Layout = ({ children }) => {
-    const data = useStaticQuery(graphql`
-        query SiteTitleQuery {
-            site {
-                siteMetadata {
-                    title
-                }
-            }
-        }
-    `);
-
     return (
         <>
-            <Header siteTitle={data.site.siteMetadata.title} />
+            <Nav />
             <main>{children}</main>
             <Footer />
         </>

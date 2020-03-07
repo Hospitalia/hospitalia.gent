@@ -10,15 +10,21 @@
 
 Welcome to Hospitalia's website! This site is built using GatsbyJS.
 
-## 🚀 Quick start
+## Quick start
 
-1.  **Clone the repository**
+1. **Install the Gatsby CLI**
+
+    ```shell
+    npm install -g gatsby-cli
+    ```
+
+2.  **Clone the repository**
 
     ```shell
     git clone https://github.com/Hospitalia/hospitalia.gent.git
     ```
 
-2.  **Start developing.**
+3.  **Start developing.**
 
     Navigate into the site’s directory and start it up.
 
@@ -27,7 +33,7 @@ Welcome to Hospitalia's website! This site is built using GatsbyJS.
     gatsby develop
     ```
 
-3.  **Open the source code and start editing!**
+4.  **Open the source code and start editing!**
 
     The site is now running at `http://localhost:8000`!
 

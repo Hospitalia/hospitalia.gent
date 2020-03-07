@@ -1,9 +1,12 @@
 :root {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     color: var(--text);
+    background-color: var(--grey-lighter);
     font-size: 16px;
     --text: #606060;
     --text-lighter: #545454;
+    --grey-light: #e2e8f0;
+    --grey-lighter: #f9f9f9;
     --blue: #003c92;
     --blue-light: #2771db;
     --red: #7f182d;
@@ -70,8 +73,7 @@ em {
 }
 header {
     box-sizing: border-box;
-    padding: 80px 0;
-    padding-bottom: 128px;
+    padding: 200px 0;
     text-align: center;
     color: var(--red-lighter);
     background-image: url("http://hospitalia.gent/assets/banner.png");
@@ -206,7 +208,7 @@ header p {
     padding-bottom: 16px;
 }
 footer {
-    background-color: #f9f9f9;
+    background-color: var(--grey-light);
 }
 footer .container {
     font-family: "Oswald", Arial, Helvetica, sans-serif;
