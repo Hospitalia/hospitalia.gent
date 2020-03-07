@@ -21,14 +21,14 @@ const IndexPage = () => {
         <Layout>
             <SEO title="Home" />
             <Header siteTitle={data.site.siteMetadata.title} />
-            <section class="container card">
+            <section className="container card">
                 <img
-                    class="logo"
+                    className="logo"
                     src="http://hospitalia.gent/assets/ad_astra.png"
                     alt="Ad Astra logo"
                 />
                 <h3>
-                    1<span class="superscript">e</span> editie
+                    1<span className="superscript">e</span> editie
                 </h3>
 
                 <p>
@@ -41,8 +41,9 @@ const IndexPage = () => {
 
                 <a
                     target="_blank"
+                    rel="noopener noreferrer"
                     href="http://hospitalia.gent/assets/ad_astra_sem1-2020.pdf"
-                    class="button"
+                    className="button"
                 >
                     <img
                         src="http://hospitalia.gent/assets/icons/download.png"
@@ -52,7 +53,7 @@ const IndexPage = () => {
                 </a>
             </section>
 
-            <section class="container intro">
+            <section className="container intro">
                 <h2>Welkom bij Hospitalia</h2>
                 <p>
                     Hospitalia is dé Gentse <em>studentenclub</em> voor de
