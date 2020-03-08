@@ -118,14 +118,15 @@ header p {
     opacity: 0.7;
     font-style: italic;
 }
+.neumorphic {
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2),
+        -10px -10px 30px rgba(255, 255, 255, 0.2);
+}
 .card {
     background-color: white;
     border-radius: 4px;
     padding: 16px;
     box-sizing: border-box;
-
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2),
-        -10px -10px 30px rgba(255, 255, 255, 0.2);
 }
 .card.intro {
     margin-top: -80px;
@@ -249,7 +250,6 @@ header p {
     max-width: 100%;
     width: 420px;
     margin: 0 auto;
-    box-shadow: 0 3px 16px rgba(0, 0, 0, 0.24);
 }
 
 @media only screen and (max-width: 720px) {

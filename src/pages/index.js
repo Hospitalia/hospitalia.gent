@@ -21,7 +21,7 @@ const IndexPage = () => {
         <Layout>
             <SEO title="Home" />
             <Header siteTitle={data.site.siteMetadata.title} />
-            <section className="container card intro">
+            <section className="container card intro neumorphic">
                 <img
                     className="logo"
                     src="http://hospitalia.gent/assets/ad_astra.png"
@@ -106,6 +106,7 @@ const IndexPage = () => {
             <section className="container kalender">
                 <h2>Kalender</h2>
                 <img
+                    className="neumorphic"
                     src="http://hospitalia.gent/assets/kalender.jpg"
                     alt="Kalender"
                 />
