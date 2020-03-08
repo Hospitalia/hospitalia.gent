@@ -6,20 +6,13 @@
 }
 .praesidium .card {
     width: calc(50% - 8px);
-    margin-bottom: 16px;
-}
-.praesidium .card h3,
-.praesidium .card p {
-    margin: 0;
+    margin-bottom: 24px;
+    border: solid 1px var(--grey-light);
+    background-color: white;
+    box-shadow: none;
 }
 .praesidium .card:nth-of-type(odd) {
     margin-right: 16px;
-}
-.praesidium .card {
-    flex-direction: column;
-}
-.praesidium .card .description {
-    margin-top: 8px;
 }
 .praesidium .person {
     width: 100%;

@@ -132,6 +132,7 @@ const IndexPage = () => {
                         href="https://www.facebook.com/Studentenclub-Hospitalia-517228918320521/"
                     >
                         <img
+                            className="small rounded"
                             src="http://hospitalia.gent/assets/social/facebook.jpg"
                             alt="Facebook"
                         />
@@ -144,6 +145,7 @@ const IndexPage = () => {
                         href="https://www.instagram.com/hospitaliagent/"
                     >
                         <img
+                            className="small rounded"
                             src="http://hospitalia.gent/assets/social/instagram.jpg"
                             alt="Instagram"
                         />
@@ -156,6 +158,7 @@ const IndexPage = () => {
                         href="https://www.snapchat.com/add/hospigent"
                     >
                         <img
+                            className="small rounded"
                             src="http://hospitalia.gent/assets/social/snapchat.jpg"
                             alt="Snapchat"
                         />

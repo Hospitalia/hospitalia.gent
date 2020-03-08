@@ -25,7 +25,7 @@ const Praesidium = () => {
         <Layout>
             <div className="container page">
                 <SEO title="Page two" />
-                <h1>Praesidium</h1>
+                <h2>Praesidium</h2>
                 <p>
                     Het praesidium is verantwoordelijk voor het organiseren van
                     activiteiten.
