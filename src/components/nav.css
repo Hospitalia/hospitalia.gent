@@ -4,8 +4,8 @@ nav {
     left: 0;
     right: 0;
     background-color: white;
-    font-family: "Oswald Light", sans-serif;
-    font-weight: 300;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
     border-bottom: solid 1px var(--grey-light);
 }
 nav .container {
@@ -20,6 +20,7 @@ nav img {
 }
 
 nav a {
+    color: var(--blue);
     display: flex;
     flex-direction: row;
     align-items: center;
