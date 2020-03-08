@@ -5,22 +5,11 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Person from "../components/person";
 
+import praesidium from "../content/praesidium.json";
+
 import "./styles/praesidium.css";
 
 const Praesidium = () => {
-    const data = useStaticQuery(graphql`
-        query PraesidiumQuery {
-            site {
-                praesidium {
-                    title
-                    name
-                    email
-                    image
-                }
-            }
-        }
-    `);
-
     return (
         <Layout>
             <div className="container page">
@@ -31,7 +20,7 @@ const Praesidium = () => {
                     activiteiten.
                 </p>
                 <section className="praesidium">
-                    {data.site.praesidium.map(el => (
+                    {praesidium.map(el => (
                         <div className="card" key={el.title}>
                             <Person
                                 title={el.title}
