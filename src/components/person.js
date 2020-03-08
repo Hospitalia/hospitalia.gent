@@ -6,7 +6,7 @@ const Person = ({ title, name, email, image, large }) => {
             {image ? (
                 <img
                     className={large ? "large" : "small"}
-                    src={`http://hospitalia.gent/assets/people/${image}`}
+                    src={image}
                     alt={title}
                 />
             ) : null}

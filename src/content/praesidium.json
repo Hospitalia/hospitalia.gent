@@ -3,7 +3,7 @@
         "title": "Praeses",
         "name": "Liäm De Kegel",
         "email": "praeses(at)hospitalia(dot)gent",
-        "image": "liam.jpg"
+        "image": "assets/people/liam.jpg"
     },
     {
         "title": "Vice",
@@ -24,7 +24,7 @@
         "title": "Schachtentemmer",
         "name": "Christoph Boeykens",
         "email": "temmer(at)hospitalia(dot)gent",
-        "image": "chris.jpg"
+        "image": "assets/people/chris.jpg"
     },
     {
         "title": "Cantor",
@@ -40,7 +40,7 @@
         "title": "PR",
         "name": "Sieghe Parijs",
         "email": "pr(at)hospitalia(dot)gent",
-        "image": "sieghe.jpg"
+        "image": "assets/people/sieghe.jpg"
     },
     {
         "title": "Cultuur",

@@ -24,7 +24,7 @@ const IndexPage = () => {
             <section className="container card intro neumorphic">
                 <img
                     className="logo"
-                    src="http://hospitalia.gent/assets/ad_astra.png"
+                    src="assets/ad_astra.png"
                     alt="Ad Astra logo"
                 />
                 <h3>
@@ -42,11 +42,11 @@ const IndexPage = () => {
                 <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="http://hospitalia.gent/assets/ad_astra_sem1-2020.pdf"
+                    href="assets/ad_astra_sem1-2020.pdf"
                     className="button"
                 >
                     <img
-                        src="http://hospitalia.gent/assets/icons/download.png"
+                        src="assets/icons/download.png"
                         alt="Ad Astra PDF Download"
                     />
                     Download Ad Adstra
@@ -86,19 +86,19 @@ const IndexPage = () => {
                         title="Praeses"
                         name="Liäm De Kegel"
                         email="praeses(at)hospitalia(dot)gent"
-                        image="liam.jpg"
+                        image="assets/people/liam.jpg"
                     />
                     <Person
                         title="Schachtentemmer"
                         name="Christoph Boeykens"
                         email="temmer(at)hospitalia(dot)gent"
-                        image="chris.jpg"
+                        image="assets/people/chris.jpg"
                     />
                     <Person
                         title="P.R."
                         name="Sieghe Parijs"
                         email="pr(at)hospitalia(dot)gent"
-                        image="sieghe.jpg"
+                        image="assets/people/sieghe.jpg"
                     />
                 </div>
             </section>
@@ -107,19 +107,16 @@ const IndexPage = () => {
                 <h2>Kalender</h2>
                 <img
                     className="neumorphic"
-                    src="http://hospitalia.gent/assets/kalender.jpg"
+                    src="assets/kalender.jpg"
                     alt="Kalender"
                 />
                 <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="http://hospitalia.gent/assets/hospitalia-sem1.pdf"
+                    href="assets/hospitalia-sem1.pdf"
                     className="button"
                 >
-                    <img
-                        src="http://hospitalia.gent/assets/icons/download.png"
-                        alt="PDF Download"
-                    />
+                    <img src="assets/icons/download.png" alt="PDF Download" />
                     Download kalender
                 </a>
             </section>
@@ -134,7 +131,7 @@ const IndexPage = () => {
                     >
                         <img
                             className="small rounded"
-                            src="http://hospitalia.gent/assets/social/facebook.jpg"
+                            src="assets/social/facebook.jpg"
                             alt="Facebook"
                         />
                         <p>Studentenclub Hospitalia</p>
@@ -147,7 +144,7 @@ const IndexPage = () => {
                     >
                         <img
                             className="small rounded"
-                            src="http://hospitalia.gent/assets/social/instagram.jpg"
+                            src="assets/social/instagram.jpg"
                             alt="Instagram"
                         />
                         <p>HospitaliaGent</p>
@@ -160,7 +157,7 @@ const IndexPage = () => {
                     >
                         <img
                             className="small rounded"
-                            src="http://hospitalia.gent/assets/social/snapchat.jpg"
+                            src="assets/social/snapchat.jpg"
                             alt="Snapchat"
                         />
                         <p>hospigent</p>
