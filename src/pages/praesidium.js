@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useStaticQuery, graphql } from "gatsby";
+import { Link } from "gatsby";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -32,7 +32,6 @@ const Praesidium = () => {
                         </div>
                     ))}
                 </section>
-                <Link to="/">Go back to the homepage</Link>
             </div>
         </Layout>
     );

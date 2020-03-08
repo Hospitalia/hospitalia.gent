@@ -113,7 +113,7 @@ const IndexPage = () => {
                 <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="assets/hospitalia-sem1.pdf"
+                    href="assets/hospitalia-sem2.pdf"
                     className="button"
                 >
                     <img src="assets/icons/download.png" alt="PDF Download" />
