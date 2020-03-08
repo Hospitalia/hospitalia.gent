@@ -8,17 +8,20 @@
     {
         "title": "Vice",
         "name": "Joke Cools",
-        "email": "vice(at)hospitalia(dot)gent"
+        "email": "vice(at)hospitalia(dot)gent",
+        "image": "assets/people/joke.jpg"
     },
     {
         "title": "Quaestor",
         "name": "Kiani Rubbrecht",
-        "email": "quaestor(at)hospitalia(dot)gent"
+        "email": "quaestor(at)hospitalia(dot)gent",
+        "image": "assets/people/kiani.jpg"
     },
     {
         "title": "Ab-Actis",
         "name": "Max Schuddinck",
-        "email": "ab-actis(at)hospitalia(dot)gent"
+        "email": "ab-actis(at)hospitalia(dot)gent",
+        "image": "assets/people/max.jpg"
     },
     {
         "title": "Schachtentemmer",
@@ -29,12 +32,14 @@
     {
         "title": "Cantor",
         "name": "Diana Janicka",
-        "email": "cantor(at)hospitalia(dot)gent"
+        "email": "cantor(at)hospitalia(dot)gent",
+        "image": "assets/people/diana.jpg"
     },
     {
         "title": "Zedenmeester",
         "name": "Dagmar Das",
-        "email": "zeden(at)hospitalia(dot)gent"
+        "email": "zeden(at)hospitalia(dot)gent",
+        "image": "assets/people/dagmar.jpg"
     },
     {
         "title": "PR",
@@ -45,21 +50,25 @@
     {
         "title": "Cultuur",
         "name": "Charlotte Sterkens",
-        "email": "cultuur(at)hospitalia(dot)gent"
+        "email": "cultuur(at)hospitalia(dot)gent",
+        "image": "assets/people/charlotte.jpg"
     },
     {
         "title": "Feest",
         "name": "Lisa Walraeve",
-        "email": "feest(at)hospitalia(dot)gent"
+        "email": "feest(at)hospitalia(dot)gent",
+        "image": "assets/people/lisa.jpg"
     },
     {
         "title": "Sport",
         "name": "Sander Colpaert",
-        "email": "sport(at)hospitalia(dot)gent"
+        "email": "sport(at)hospitalia(dot)gent",
+        "image": "assets/people/sander.jpg"
     },
     {
         "title": "Web",
         "name": "Manaus Transez",
-        "email": "web(at)hospitalia(dot)gent"
+        "email": "web(at)hospitalia(dot)gent",
+        "image": "assets/people/manaus.jpg"
     }
 ]
