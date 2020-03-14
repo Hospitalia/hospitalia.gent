@@ -17,7 +17,7 @@ const Praesidium = () => {
                 <h2>Praesidium</h2>
                 <p>
                     Het praesidium is verantwoordelijk voor het organiseren van
-                    activiteiten.
+                    alle activiteiten.
                 </p>
                 <section className="praesidium">
                     {praesidium.map(el => (

@@ -3,72 +3,72 @@
         "title": "Praeses",
         "name": "Liäm De Kegel",
         "email": "praeses(at)hospitalia(dot)gent",
-        "image": "assets/people/liam.jpg"
+        "image": "/assets/people/liam.jpg"
     },
     {
         "title": "Vice",
         "name": "Joke Cools",
         "email": "vice(at)hospitalia(dot)gent",
-        "image": "assets/people/joke.jpg"
+        "image": "/assets/people/joke.jpg"
     },
     {
         "title": "Quaestor",
         "name": "Kiani Rubbrecht",
         "email": "quaestor(at)hospitalia(dot)gent",
-        "image": "assets/people/kiani.jpg"
+        "image": "/assets/people/kiani.jpg"
     },
     {
         "title": "Ab-Actis",
         "name": "Max Schuddinck",
         "email": "ab-actis(at)hospitalia(dot)gent",
-        "image": "assets/people/max.jpg"
+        "image": "/assets/people/max.jpg"
     },
     {
         "title": "Schachtentemmer",
         "name": "Christoph Boeykens",
         "email": "temmer(at)hospitalia(dot)gent",
-        "image": "assets/people/chris.jpg"
+        "image": "/assets/people/chris.jpg"
     },
     {
         "title": "Cantor",
         "name": "Diana Janicka",
         "email": "cantor(at)hospitalia(dot)gent",
-        "image": "assets/people/diana.jpg"
+        "image": "/assets/people/diana.jpg"
     },
     {
         "title": "Zedenmeester",
         "name": "Dagmar Das",
         "email": "zeden(at)hospitalia(dot)gent",
-        "image": "assets/people/dagmar.jpg"
+        "image": "/assets/people/dagmar.jpg"
     },
     {
         "title": "PR",
         "name": "Sieghe Parijs",
         "email": "pr(at)hospitalia(dot)gent",
-        "image": "assets/people/sieghe.jpg"
+        "image": "/assets/people/sieghe.jpg"
     },
     {
         "title": "Cultuur",
         "name": "Charlotte Sterkens",
         "email": "cultuur(at)hospitalia(dot)gent",
-        "image": "assets/people/charlotte.jpg"
+        "image": "/assets/people/charlotte.jpg"
     },
     {
         "title": "Feest",
         "name": "Lisa Walraeve",
         "email": "feest(at)hospitalia(dot)gent",
-        "image": "assets/people/lisa.jpg"
+        "image": "/assets/people/lisa.jpg"
     },
     {
         "title": "Sport",
         "name": "Sander Colpaert",
         "email": "sport(at)hospitalia(dot)gent",
-        "image": "assets/people/sander.jpg"
+        "image": "/assets/people/sander.jpg"
     },
     {
         "title": "Web",
         "name": "Manaus Transez",
         "email": "web(at)hospitalia(dot)gent",
-        "image": "assets/people/manaus.jpg"
+        "image": "/assets/people/manaus.jpg"
     }
 ]

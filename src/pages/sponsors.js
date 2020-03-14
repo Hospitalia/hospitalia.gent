@@ -6,10 +6,15 @@ import SEO from "../components/seo";
 
 const Sponsors = () => (
     <Layout>
-        <SEO title="Page two" />
-        <h1>Hi from the second page</h1>
-        <p>Welcome to page 2</p>
-        <Link to="/">Go back to the homepage</Link>
+        <div className="container page">
+            <SEO title="Sponsors" />
+            <h2>Sponsors</h2>
+            <p>
+                Deze sponsors en hun bijdragen maken het voor ons mogelijk om
+                activiteiten te organiseren.
+            </p>
+            <section className="sponsors"></section>
+        </div>
     </Layout>
 );
 
