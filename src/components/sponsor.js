@@ -1,6 +1,6 @@
 import React from "react";
 
-const Sponsor = ({ name, img, url, description, background }) => {
+const Sponsor = ({ name, detail, img, url, description, background }) => {
     return (
         <div className="sponsor">
             <div className="banner" style={{ backgroundImage: `url(${background}` }}>
@@ -9,8 +9,9 @@ const Sponsor = ({ name, img, url, description, background }) => {
             <div className="card">
                 <a href={url} target="_blank" rel="noopener noreferrer">
                     <h3>{name}</h3>
+                    {detail ? <h4>{detail}</h4> : null}
                 </a>
-                <p>lorem ipsum pls replace me</p>
+                <p>{description}</p>
             </div>
         </div>
     );

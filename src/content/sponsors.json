@@ -1,72 +1,82 @@
 [
     {
         "name": "Arteveldehogeschool",
+        "detail": "Campus Kantienberg",
         "img": "/assets/sponsors/ahs.png",
         "background": "/assets/sponsors/ahs-bg.jpg",
         "url": "https://www.arteveldehogeschool.be/",
-        "description": ""
+        "description": "Op deze campus komen studenten van meerdere opleidingen samen. Sommige activiteiten staan open voor alle studenten van onze school. Zo leren we mensen van alle strekkingen kennen!"
     },
     {
         "name": "'t Kofschip",
+        "detail": "Overpoortstraat 96",
         "img": "/assets/sponsors/kofschip.png",
         "background": "/assets/sponsors/kofschip-bg.jpg",
         "url": "https://www.facebook.com/hetkof/",
-        "description": ""
+        "description": "'T Kofschip is ons stamcafé waar we onvergetelijke herinneringen maken. Uitbater Maarten houdt voor ons de pintjes lekker fris en voordelig."
     },
     {
         "name": "Johnny De Ceulaerde",
+        "detail": "Fotografie",
         "img": "/assets/sponsors/johnny.png",
         "background": "/assets/sponsors/johnny-bg.jpg",
         "url": "https://johnnyfotografie.wordpress.com/",
-        "description": ""
+        "description": "Onze eigen clubfotograaf legt onze herinneringen vast, en zorgt ervoor dat we de ochtend na een feestje vol schaamte door Facebook scrollen..."
     },
     {
         "name": "Papier & Co",
+        "detail": "Papierwinkel",
         "img": "/assets/sponsors/papierenco.png",
         "background": "/assets/sponsors/papierenco-bg.jpg",
         "url": "https://papierenco.be/",
-        "description": ""
+        "description": "Bij Papier & Co kunnen alle leden van Hospitalia aan een voordelige prijs hun drukwerk afhalen."
     },
     {
         "name": "The Barn",
+        "detail": "Kramersplein 16",
         "img": "/assets/sponsors/barn.png",
         "background": "/assets/sponsors/barn-bg.jpg",
         "url": "http://thebarnghent.be/",
-        "description": ""
+        "description": "Bij deze broodjeszaak in de buurt van campus Kantienberg kunnen onze leden 10% korting genieten. Heb je plots grote honger tussen de lessen door? Bij een aankoop van 10 broodjes krijg je er een gratis bij!"
     },
     {
         "name": "Dorst",
+        "detail": "Tapcocktails",
         "img": "/assets/sponsors/dorst.png",
         "background": "/assets/sponsors/dorst-bg.jpg",
         "url": "https://dorst.com/",
-        "description": ""
+        "description": "Dorst levert cocktails voor speciale gelegenheden. Je vindt dezelfde cocktails terug op je favoriete festivalweide."
     },
     {
         "name": "Stefano's Place",
+        "detail": "Legendarische frituur",
         "img": "/assets/sponsors/stefanos.png",
         "background": "/assets/sponsors/stefanos-bg.jpg",
         "url": "https://www.facebook.com/Stefanos-Place-370774480004139/",
-        "description": ""
+        "description": "Je kent het wel, om 4u 's nachts krijg je plots honger. Gelukkig staat Stefaan altijd voor ons klaar! Bestel er een Julientje, en je leven is voorgoed veranderd."
     },
     {
         "name": "X-Care",
+        "detail": "Uitzendbureau",
         "img": "/assets/sponsors/xcare.png",
         "background": "/assets/sponsors/xcare-bg.jpg",
         "url": "http://www.x-care.be/nl",
-        "description": ""
+        "description": "X-Care specialiseert zich in studenten gezondheidszorg. Ze helpen je in jouw sector aan een studentenjob, weekendwerk of zelfs vast werk en helpen zo bouwen aan je toekomst."
     },
     {
         "name": "Nurse O'Clock",
+        "detail": "Online winkel",
         "img": "/assets/sponsors/nurseoclock.png",
         "background": "/assets/sponsors/nurseoclock-bg.jpg",
         "url": "https://www.nurseoclock.be/",
-        "description": ""
+        "description": "Nurse O'Clock is specialist in gadgets en gereedschap voor de gezondheidszorg. Hier kan je aan studentvriendelijke prijzen je stagemateriaal aankopen."
     },
     {
         "name": "Trooper",
+        "detail": "Winkelplatform",
         "img": "/assets/sponsors/trooper.png",
         "background": "/assets/sponsors/trooper-bg.jpg",
         "url": "https://www.trooper.be/hospitalia",
-        "description": ""
+        "description": "Als je jouw online bestellingen via Trooper plaatst steun je de club rechtstreeks, zonder daarvoor extra te moeten betalen!"
     }
 ]

@@ -22,6 +22,7 @@ const Sponsors = () => (
                     <Sponsor
                         key={el.name}
                         name={el.name}
+                        detail={el.detail}
                         url={el.url}
                         img={el.img}
                         description={el.description}
