@@ -2,61 +2,71 @@
     {
         "name": "Arteveldehogeschool",
         "img": "/assets/sponsors/ahs.png",
+        "background": "/assets/sponsors/ahs-bg.jpg",
         "url": "https://www.arteveldehogeschool.be/",
         "description": ""
     },
     {
         "name": "'t Kofschip",
         "img": "/assets/sponsors/kofschip.png",
+        "background": "/assets/sponsors/kofschip-bg.jpg",
         "url": "https://www.facebook.com/hetkof/",
         "description": ""
     },
     {
         "name": "Johnny De Ceulaerde",
         "img": "/assets/sponsors/johnny.png",
+        "background": "/assets/sponsors/johnny-bg.jpg",
         "url": "https://johnnyfotografie.wordpress.com/",
         "description": ""
     },
     {
         "name": "Papier & Co",
         "img": "/assets/sponsors/papierenco.png",
+        "background": "/assets/sponsors/papierenco-bg.jpg",
         "url": "https://papierenco.be/",
         "description": ""
     },
     {
         "name": "The Barn",
         "img": "/assets/sponsors/barn.png",
+        "background": "/assets/sponsors/barn-bg.jpg",
         "url": "http://thebarnghent.be/",
         "description": ""
     },
     {
         "name": "Dorst",
         "img": "/assets/sponsors/dorst.png",
+        "background": "/assets/sponsors/dorst-bg.jpg",
         "url": "https://dorst.com/",
         "description": ""
     },
     {
         "name": "Stefano's Place",
         "img": "/assets/sponsors/stefanos.png",
+        "background": "/assets/sponsors/stefanos-bg.jpg",
         "url": "https://www.facebook.com/Stefanos-Place-370774480004139/",
         "description": ""
     },
     {
         "name": "X-Care",
         "img": "/assets/sponsors/xcare.png",
+        "background": "/assets/sponsors/xcare-bg.jpg",
         "url": "http://www.x-care.be/nl",
         "description": ""
     },
     {
         "name": "Nurse O'Clock",
         "img": "/assets/sponsors/nurseoclock.png",
+        "background": "/assets/sponsors/nurseoclock-bg.jpg",
         "url": "https://www.nurseoclock.be/",
         "description": ""
     },
     {
         "name": "Trooper",
         "img": "/assets/sponsors/trooper.png",
-        "url": "https://www.trooper.be/",
+        "background": "/assets/sponsors/trooper-bg.jpg",
+        "url": "https://www.trooper.be/hospitalia",
         "description": ""
     }
 ]

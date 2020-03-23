@@ -1,8 +1,12 @@
 import React from "react";
-import { Link } from "gatsby";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import Sponsor from "../components/sponsor";
+
+import sponsors from "../content/sponsors.json";
+
+import "./styles/sponsors.css";
 
 const Sponsors = () => (
     <Layout>
@@ -13,7 +17,18 @@ const Sponsors = () => (
                 Deze sponsors en hun bijdragen maken het voor ons mogelijk om
                 activiteiten te organiseren.
             </p>
-            <section className="sponsors"></section>
+            <section className="sponsors">
+                {sponsors.map(el => (
+                    <Sponsor
+                        key={el.name}
+                        name={el.name}
+                        url={el.url}
+                        img={el.img}
+                        description={el.description}
+                        background={el.background}
+                    />
+                ))}
+            </section>
         </div>
     </Layout>
 );
