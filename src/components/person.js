@@ -14,7 +14,7 @@ const Person = ({ title, name, email, image, large }) => {
                 <h3>{title}</h3>
                 <p>{name}</p>
                 {email ? (
-                    <a href={email.replace("(at)", "@").replace("(dot)", ".")}>
+                    <a href={`mailto:${email.replace("(at)", "@").replace("(dot)", ".")}`}>
                         {email.replace("(at)", "@").replace("(dot)", ".")}
                     </a>
                 ) : null}

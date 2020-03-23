@@ -9,7 +9,7 @@ nav {
     border-bottom: solid 1px var(--grey-light);
 }
 nav .container {
-    padding: 8px;
+    padding: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -20,6 +20,8 @@ nav img {
 }
 
 nav a {
+    margin: 4px 0;
+    padding: 8px 4px;
     color: var(--blue);
     display: flex;
     flex-direction: row;
@@ -29,7 +31,7 @@ nav a {
 
 @media only screen and (max-width: 720px) {
     nav .container {
-        padding: 8px 16px;
+        padding: 0;
         justify-content: space-between;
     }
     nav a {

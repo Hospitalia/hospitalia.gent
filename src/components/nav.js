@@ -15,8 +15,8 @@ const Nav = () => (
                 />
                 Hospitalia
             </Link>
+            <Link to="/sponsors">Lid worden</Link>
             <Link to="/about">Over ons</Link>
-            <Link to="/praesidium">Praesidium</Link>
             <Link to="/ad-astra">Ad Astra</Link>
             <Link to="/sponsors">Sponsors</Link>
         </div>
