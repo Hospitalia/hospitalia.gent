@@ -3,6 +3,13 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+.praesidium img {
+    height: 80px;
+    width: 80px;
+    min-height: 80px;
+    min-width: 80px;
 }
 .praesidium .card {
     width: calc(50% - 8px);
@@ -11,20 +18,29 @@
     background-color: white;
     box-shadow: none;
 }
-.praesidium .card:nth-of-type(odd) {
-    margin-right: 16px;
-}
 .praesidium .person {
+    display: flex;
+    flex-direction: row;
     width: 100%;
     margin: 0;
 }
+.praesidium p {
+    margin: 0;
+}
+.praesidium a {
+    padding: 4px 0 8px 0;
+}
+.praesidium .light {
+    margin-top: 4px;
+    font-size: 14px;
+    color: #777;
+}
 
 @media only screen and (max-width: 720px) {
-    .praesidium {
-        flex-direction: column;
-    }
-    .praesidium .card {
-        width: 100%;
-        margin-right: 0;
+    .praesidium img {
+        height: 64px;
+        width: 64px;
+        min-height: 64px;
+        min-width: 64px;
     }
 }

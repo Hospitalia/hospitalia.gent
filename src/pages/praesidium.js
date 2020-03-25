@@ -24,6 +24,8 @@ const Praesidium = () => {
                             <Person
                                 title={el.title}
                                 name={el.name}
+                                info={el.info}
+                                education={el.education}
                                 email={el.email}
                                 image={el.image}
                                 large

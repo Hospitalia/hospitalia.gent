@@ -1,6 +1,6 @@
 import React from "react";
 
-const Person = ({ title, name, email, image, large }) => {
+const Person = ({ title, name, email, image, info, education, large }) => {
     return (
         <div className="person">
             {image ? (
@@ -18,6 +18,8 @@ const Person = ({ title, name, email, image, large }) => {
                         {email.replace("(at)", "@").replace("(dot)", ".")}
                     </a>
                 ) : null}
+                <p>{education}</p>
+                <p className="light">{info}</p>
             </div>
         </div>
     );
