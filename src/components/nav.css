@@ -18,10 +18,34 @@ nav img {
     height: 32px;
     margin-right: 8px;
 }
+nav .icon {
+    height: 24px;
+    margin: 0 0 0 4px;
+}
+
+nav .submenu-parent {
+    position: relative;
+}
+nav .submenu-parent:hover .submenu{
+    display: block;
+}
+nav .submenu {
+    display: none;
+    background-color: white;
+    border-radius: 0 0 4px 4px;
+    border: solid 1px var(--grey-light);
+    border-top: none;
+    position: fixed;
+    top: 56px;
+}
+nav .submenu a {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+}
 
 nav a {
-    margin: 4px 0;
-    padding: 8px 4px;
+    padding: 14px 4px;
     color: var(--blue);
     display: flex;
     flex-direction: row;

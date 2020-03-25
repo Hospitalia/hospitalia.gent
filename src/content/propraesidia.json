@@ -1,0 +1,461 @@
+[
+    {
+        "year": "2018-2019",
+        "members": [
+            {
+                "title": "Praeses",
+                "name": "Manon Ghesquiere"
+            },
+            {
+                "title": "Vice",
+                "name": "Joke De Mesmaecker"
+            },
+            {
+                "title": "Quaestor",
+                "name": "Tivari Goeminne"
+            },
+            {
+                "title": "Schachtentemmer",
+                "name": "Diana Janicka"
+            },
+            {
+                "title": "Cantor",
+                "name": "Liäm De Kegel"
+            },
+            {
+                "title": "Cultuur",
+                "name": "Julie Van Paepegem"
+            },
+            {
+                "title": "Feest",
+                "name": "Joke Cools"
+            },
+            {
+                "title": "Sport",
+                "name": "Dries Gyselinck"
+            }
+        ]
+    },
+    {
+        "year": "2017-2018",
+        "members": [
+            {
+                "title": "Praeses",
+                "name": "Anne-Sophie Bogaert"
+            },
+            {
+                "title": "Vice",
+                "name": "Diederik Brysse"
+            },
+            {
+                "title": "Quaestor",
+                "name": "Lisa Swinnen"
+            },
+            {
+                "title": "Ab-actis",
+                "name": "Axelle Desmet"
+            },
+            {
+                "title": "Schachtentemmer",
+                "name": "Max Schuddinck"
+            },
+            {
+                "title": "Cantor",
+                "name": "Jan Vernackt"
+            },
+            {
+                "title": "Keizer Zedenmeester",
+                "name": "Willeke Schmidt"
+            },
+            {
+                "title": "PR",
+                "name": "Annouck Carpentier"
+            },
+            {
+                "title": "Cultuur",
+                "name": "Nathalie Schaepdryver"
+            },
+            {
+                "title": "Feest",
+                "name": "Anna Verhoeven"
+            },
+            {
+                "title": "Sport",
+                "name": "Joke De Mesmaecker"
+            }
+        ]
+    },
+    {
+        "year": "2016-2017",
+        "members": [
+            {
+                "title": "Praeses",
+                "name": "Eva Sengeleng"
+            },
+            {
+                "title": "Vice",
+                "name": "Anne-Sophie Bogaert"
+            },
+            {
+                "title": "Quaestor",
+                "name": "Hanne Van Vlierberghe"
+            },
+            {
+                "title": "Ab-actis",
+                "name": "Diederik Brysse"
+            },
+            {
+                "title": "Schachtentemmer",
+                "name": "Aurieke Meyfroot"
+            },
+            {
+                "title": "Cantor",
+                "name": "Naomi Van Den Meersschaut"
+            },
+            {
+                "title": "Zedenmeester",
+                "name": "Willeke Schmidt"
+            },
+            {
+                "title": "Cultuur",
+                "name": "Tine De Belie"
+            },
+            {
+                "title": "Feest",
+                "name": "Anna Verhoeven"
+            },
+            {
+                "title": "Sport",
+                "name": "Joke De Mesmaecker"
+            }
+        ]
+    },
+    {
+        "year": "2015-2016",
+        "members": [
+            {
+                "title": "Praeses",
+                "name": "Diederik Brysse"
+            },
+            {
+                "title": "Vice",
+                "name": "Anouk Stragier"
+            },
+            {
+                "title": "Quaestor",
+                "name": "Hanne Van Vlierberghe"
+            },
+            {
+                "title": "Ab-actis",
+                "name": "Lein Verschueren"
+            },
+            {
+                "title": "Schachtentemmer",
+                "name": "Lieselot Voet"
+            },
+            {
+                "title": "Cantor",
+                "name": "Naomi Van Den Meersschaut"
+            },
+            {
+                "title": "Zedenmeester",
+                "name": "Willeke Schmidt"
+            },
+            {
+                "title": "PR",
+                "name": "Annouck Carpentier"
+            },
+            {
+                "title": "Cultuur",
+                "name": "Eva Sengeleng"
+            },
+            {
+                "title": "Feest",
+                "name": "Anne-Sophie Bogaert"
+            },
+            {
+                "title": "Sport",
+                "name": "Demi Tournoy"
+            },
+            {
+                "title": "Web",
+                "name": "Jannes De Smet"
+            }
+        ]
+    },
+    {
+        "year": "2014-2015",
+        "members": [
+            {
+                "title": "Praeses",
+                "name": "Lieselot Voet"
+            },
+            {
+                "title": "Vice",
+                "name": "Marie Van Haesbroeck"
+            },
+            {
+                "title": "Quaestor",
+                "name": "Czernia De Decker"
+            },
+            {
+                "title": "Ab-actis",
+                "name": "Tine De Belie"
+            },
+            {
+                "title": "Schachtentemmer",
+                "name": "Mats Andries"
+            },
+            {
+                "title": "Zedenmeester",
+                "name": "Valerie De Ghouy"
+            },
+            {
+                "title": "PR",
+                "name": "Valerie De Ghouy"
+            },
+            {
+                "title": "Cultuur",
+                "name": "Saartje Chanterie"
+            },
+            {
+                "title": "Feest",
+                "name": "Tess Bosmans"
+            },
+            {
+                "title": "Sport",
+                "name": "Czernia De Decker"
+            }
+        ]
+    },
+    {
+        "year": "2013-2014",
+        "members": [
+            {
+                "title": "Praeses",
+                "name": "Marie Van Haesbroeck"
+            },
+            {
+                "title": "Vice",
+                "name": "Margo De Vos"
+            },
+            {
+                "title": "Ab-actis",
+                "name": "Czernia De Decker"
+            },
+            {
+                "title": "Schachtentemmer",
+                "name": "Leentje Coppens"
+            },
+            {
+                "title": "Zedenmeester",
+                "name": "Annelies Thienpondt"
+            },
+            {
+                "title": "Feest",
+                "name": "Annelies Thienpondt"
+            },
+            {
+                "title": "Sport",
+                "name": "Saartje Chanterie"
+            }
+        ]
+    },
+    {
+        "year": "2012-2013",
+        "members": [
+            {
+                "title": "Praeses",
+                "name": "Margo De Vos"
+            },
+            {
+                "title": "Vice",
+                "name": "Sander Aerens"
+            },
+            {
+                "title": "Quaestor",
+                "name": "Sander Aerens"
+            },
+            {
+                "title": "Ab-actis",
+                "name": "Matthew Mestdagh"
+            },
+            {
+                "title": "Schachtentemmer",
+                "name": "Marie Van Haesbroeck"
+            },
+            {
+                "title": "Zedenmeester",
+                "name": "Annelies Thienpondt"
+            },
+            {
+                "title": "Cantor",
+                "name": "Tiemen Vereecke"
+            },
+            {
+                "title": "PR",
+                "name": "Bertrandt De Bock"
+            },
+            {
+                "title": "Cultuur",
+                "name": "Sven Toye"
+            },
+            {
+                "title": "Sport",
+                "name": "Tiemen Vereecke"
+            }
+        ]
+    },
+    {
+        "year": "2011-2012",
+        "members": [
+            {
+                "title": "Praeses",
+                "name": "Elise Van Belleghem"
+            },
+            {
+                "title": "Keizer Vice",
+                "name": "Shana Vanden Berghe"
+            },
+            {
+                "title": "Quaestor",
+                "name": "Sander Aerens"
+            },
+            {
+                "title": "Ab-actis",
+                "name": "Sander Aerens"
+            },
+            {
+                "title": "Schachtentemmer",
+                "name": "Laetitia Dekindt"
+            },
+            {
+                "title": "Zedenmeester",
+                "name": "Tine Pinceel"
+            },
+            {
+                "title": "Cantor",
+                "name": "Marjolein Schollaert"
+            },
+            {
+                "title": "PR",
+                "name": "Amélie Saverys"
+            },
+            {
+                "title": "Cultuur",
+                "name": "Annelies D'hollander"
+            },
+            {
+                "title": "Sport",
+                "name": "Matthew Mestdagh"
+            }
+        ]
+    },
+    {
+        "year": "2010-2011",
+        "members": [
+            {
+                "title": "Praeses",
+                "name": "Elise Van Belleghem"
+            },
+            {
+                "title": "Vice",
+                "name": "Shana Vanden Berghe"
+            },
+            {
+                "title": "Schachtentemmer",
+                "name": "Marjolein Schollaert"
+            },
+            {
+                "title": "Zedenmeester",
+                "name": "Joey Snellaert"
+            },
+            {
+                "title": "Cantor",
+                "name": "Annelies D'hollander"
+            },
+            {
+                "title": "Cultuur",
+                "name": "Mathilde Merlevede"
+            },
+            {
+                "title": "Feest",
+                "name": "Mathilde Merlevede"
+            },
+            {
+                "title": "Sport",
+                "name": "Baptist Declerck"
+            },
+            {
+                "title": "Web",
+                "name": "Martijn Derese"
+            }
+        ]
+    },
+    {
+        "year": "2009-2010",
+        "members": [
+            {
+                "title": "Praeses",
+                "name": "Sander Aerens"
+            },
+            {
+                "title": "Vice",
+                "name": "Shana Vanden Berghe"
+            },
+            {
+                "title": "Quaestor",
+                "name": "Annelies D'hollander"
+            },
+            {
+                "title": "Ab-actis",
+                "name": "Shana Vanden Berghe"
+            },
+            {
+                "title": "Schachtentemmer",
+                "name": "Marjolein Schollaert"
+            }
+        ]
+    },
+    {
+        "year": "2008-2009",
+        "members": [
+            {
+                "title": "Praeses",
+                "name": "Marjolein Schollaert"
+            },
+            {
+                "title": "Quaestor",
+                "name": "Hilde Beulens"
+            },
+            {
+                "title": "Ab-actis",
+                "name": "Sander Aerens"
+            },
+            {
+                "title": "Schachtentemmer",
+                "name": "Niek Mortier"
+            },
+            {
+                "title": "Zedenmeester",
+                "name": "Jolien Stans"
+            },
+            {
+                "title": "PR",
+                "name": "Elise Van Belleghem"
+            },
+            {
+                "title": "Cultuur",
+                "name": "Karolien Vandepaer"
+            },
+            {
+                "title": "Feest",
+                "name": "Joshi Wouters"
+            },
+            {
+                "title": "Sport",
+                "name": "Toon Mavuata"
+            }
+        ]
+    }
+]

@@ -1,12 +1,12 @@
 import React from "react";
 
-import Layout from "../components/layout";
-import SEO from "../components/seo";
-import Person from "../components/person";
+import Layout from "../../components/layout";
+import SEO from "../../components/seo";
+import Person from "../../components/person";
 
-import praesidium from "../content/praesidium.json";
+import praesidium from "../../content/praesidium.json";
 
-import "./styles/praesidium.css";
+import "../styles/praesidium.css";
 
 const Praesidium = () => {
     return (
@@ -28,7 +28,6 @@ const Praesidium = () => {
                                 education={el.education}
                                 email={el.email}
                                 image={el.image}
-                                large
                             />
                         </div>
                     ))}

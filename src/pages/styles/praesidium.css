@@ -1,4 +1,4 @@
-.praesidium {
+.praesidium, .propraesidia {
     margin-top: 32px;
     display: flex;
     flex-direction: row;
@@ -11,7 +11,7 @@
     min-height: 80px;
     min-width: 80px;
 }
-.praesidium .card {
+.praesidium .card, .propraesidia .card {
     width: calc(50% - 8px);
     margin-bottom: 24px;
     border: solid 1px var(--grey-light);
@@ -36,7 +36,23 @@
     color: #777;
 }
 
+.propraesidium .person {
+    width: 100%;
+    margin: 8px 0;
+}
+.propraesidium h3 {
+    color: var(--blue-light);
+    font-size: 16px;
+    margin-top: 4px;
+}
+
 @media only screen and (max-width: 720px) {
+    .praesidium {
+        flex-direction: column;
+    }
+    .praesidium .card {
+        width: 100%;
+    }
     .praesidium img {
         height: 64px;
         width: 64px;
