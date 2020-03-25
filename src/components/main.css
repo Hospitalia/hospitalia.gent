@@ -80,7 +80,7 @@ em {
     font-weight: 700;
 }
 .container {
-    max-width: 720px;
+    max-width: 964px;
     padding: 32px;
     box-sizing: content-box;
     margin: 0 auto;
@@ -130,6 +130,7 @@ header p {
 .card.intro {
     margin-top: -80px;
     padding: 32px;
+    margin-bottom: 16px;
 }
 .card.intro.meta {
     border-left: solid 4px var(--red-light);
@@ -251,7 +252,7 @@ header p {
     margin: 0 auto;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 964px) {
     header h1 {
         font-size: 48px;
     }
