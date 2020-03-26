@@ -8,7 +8,7 @@ nav {
     font-weight: 400;
     border-bottom: solid 1px var(--grey-light);
 }
-nav .container {
+nav .container, nav .desktop-nav {
     padding: 0;
     display: flex;
     flex-direction: row;
@@ -23,13 +23,11 @@ nav .icon {
     margin: 0 0 0 4px;
 }
 
-nav .submenu-parent {
-    position: relative;
-}
 nav .submenu-parent:hover .submenu{
     display: block;
 }
 nav .submenu {
+    margin-right: 0;
     display: none;
     background-color: white;
     border-radius: 0 0 4px 4px;
@@ -44,7 +42,7 @@ nav .submenu a {
     padding: 8px;
 }
 
-nav a {
+nav a, nav .submenu-parent {
     padding: 14px 4px;
     color: var(--blue);
     display: flex;
@@ -52,13 +50,27 @@ nav a {
     align-items: center;
     margin-right: 32px;
 }
+nav .mobile-nav {
+    display: none;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
 
 @media only screen and (max-width: 964px) {
-    nav .container {
-        padding: 0;
-        justify-content: space-between;
+    nav .desktop-nav {
+        display: none;
     }
-    nav a {
-        margin: 0;
+
+    nav .mobile-nav {
+        display: block;
+    }
+    nav {
+        padding: 0 16px;
+    }
+    nav .container {
+        justify-content: space-between;
     }
 }

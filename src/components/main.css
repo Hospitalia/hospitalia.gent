@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
 :root {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     color: var(--text);
@@ -20,6 +23,7 @@ h3,
 h4,
 h5,
 h6 {
+    font-weight: 400;
     color: var(--blue);
     font-family: "Oswald", Arial, Helvetica, sans-serif;
 }
@@ -128,6 +132,7 @@ header p {
     box-sizing: border-box;
 }
 .card.intro {
+    max-width: 720px;
     margin-top: -80px;
     padding: 32px;
     margin-bottom: 16px;
@@ -252,14 +257,15 @@ header p {
     margin: 0 auto;
 }
 
+iframe.statutes {
+    width: 100%;
+    height: calc(100vh - 317px);
+    min-height: 66vh;
+}
+
 @media only screen and (max-width: 964px) {
     header h1 {
         font-size: 48px;
-    }
-    .card.intro {
-        margin-left: 16px;
-        margin-right: 16px;
-        padding: 24px;
     }
     .card.intro .meta p {
         font-size: 16px;
@@ -273,5 +279,13 @@ header p {
     }
     .socials div {
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 752px) {
+    .card.intro {
+        margin-left: 16px;
+        margin-right: 16px;
+        padding: 24px;
     }
 }
