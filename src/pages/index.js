@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { useStaticQuery, graphql } from "gatsby";
 
 import Header from "../components/header";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Person from "../components/person";
+
+import praesidium from "../content/praesidium.json";
 
 const IndexPage = () => {
     const data = useStaticQuery(graphql`
@@ -16,6 +18,27 @@ const IndexPage = () => {
             }
         }
     `);
+
+    const [praeses, setPraeses] = useState(null)
+    const [temmer, setTemmer] = useState(null)
+    const [pr, setPR] = useState(null)
+
+    useEffect(() => {
+        const praesesObj = praesidium.filter(obj => {
+            return obj.title === "Praeses"
+        })
+        setPraeses(praesesObj[0])
+
+        const temmerObj = praesidium.filter(obj => {
+            return obj.title === "Schachtentemmer"
+        })
+        setTemmer(temmerObj[0])
+
+        const prObj = praesidium.filter(obj => {
+            return obj.title === "PR"
+        })
+        setPR(prObj[0])
+    }, [])
 
     return (
         <Layout>
@@ -82,24 +105,32 @@ const IndexPage = () => {
                 </p>
 
                 <div className="socials">
-                    <Person
-                        title="Praeses"
-                        name="Liäm De Kegel"
-                        email="praeses(at)hospitalia(dot)gent"
-                        image="/assets/people/liam.jpg"
-                    />
-                    <Person
-                        title="Schachtentemmer"
-                        name="Christoph Boeykens"
-                        email="temmer(at)hospitalia(dot)gent"
-                        image="/assets/people/chris.jpg"
-                    />
-                    <Person
-                        title="P.R."
-                        name="Sieghe Parijs"
-                        email="pr(at)hospitalia(dot)gent"
-                        image="/assets/people/sieghe.jpg"
-                    />
+
+                    {praeses ? (
+                        <Person
+                            title={praeses.title}
+                            name={praeses.name}
+                            email={praeses.email}
+                            image={praeses.image}
+                        />
+                    ) : null}
+                    {temmer ? (
+                        <Person
+                            title={temmer.title}
+                            name={temmer.name}
+                            email={temmer.email}
+                            image={temmer.image}
+                        />
+                    ) : null}
+
+                    {pr ? (
+                        <Person
+                            title={pr.title}
+                            name={pr.name}
+                            email={pr.email}
+                            image={pr.image}
+                        />
+                    ) : null}
                 </div>
             </section>
 
