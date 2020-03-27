@@ -92,6 +92,14 @@ em {
 .container.page {
     margin-top: 32px;
 }
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
 header {
     box-sizing: border-box;
     padding: 200px 0;
