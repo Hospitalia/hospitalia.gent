@@ -8,22 +8,22 @@ import "../styles/about.css"
 const General = () => {
     return (
         <Layout>
-            <div className="container page">
+            <div className="container page about">
                 <SEO title="Algemeen" />
-                <h2>Algemeen</h2>
+                <h1>Algemeen</h1>
 
-                <h3>Dies Natalis</h3>
+                <h2>Dies Natalis</h2>
                 <p>Op 15 oktober 2008 is Hospitalia opgericht. De Dies Natalis is dus de geboortedag van onze club en wordt gevierd op <b>15 oktober</b>. Indien deze dag tijdens het weekend valt, wordt de Dies Natalis gevierd op de clubavond in de week van 15 oktober.</p>
 
-                <h3>Clubleuze</h3>
+                <h2>Clubleuze</h2>
                 <p>Hospitalia heeft als clubleuze <b>Per aspera ad astra</b>, wat staat voor <q>langs moeilijke wegen naar de sterren.</q></p>
 
-                <h3>Mascotte</h3>
+                <h2>Mascotte</h2>
                 <p>Sinds 2019 is <b>Danny de blije alpaca</b> onze mascotte. Tijdens het ontgroeningsweekend van jaar 12 (academiejaar 2018-2019) hebben onze leden de geboorte van een alpaca mogen meemaken, en is onze club trotse peter geworden van het pasgeboren diertje. Dit vond plaats op 6 april 2019 in alpacaboerderij <a href="https://www.deblijealpaca.be/" target="_blank" rel="noopener noreferrer">De Blije Alpaca</a> in Lokeren.</p>
 
                 <img src="/assets/danny.png" alt="Certificaat peterschap Danny" />
 
-                <h3>Schild en vlag</h3>
+                <h2>Schild en vlag</h2>
                 <section className="row">
                     <div>
                         <p>Het wapenschild van Hospitalia heeft de vorm van een heraldisch schild. Links zien we het rode kruis, dat staat voor vrijwillige hulpverlening aan zieken en gewonden. Dit rode kruis maakt deel uit een spuit, een veel gebruikt instrument in de gezondheidszorg. Rechts in het schild vinden we de clubkleuren. Blauw is de kleur van verpleegkundigen en bordeaux staat voor het bloed waar we mee te maken krijgen. Daarop staat het monogram getekend in het zwart. Dit is samengesteld uit de letters V, C, F, en vervolgens de eerste letter van onze club H. De letters staan voor <q>Vivat, crescat et floreat</q>, dit is Latijn voor <q>Leef, groei en bloei</q>.</p>
@@ -34,15 +34,13 @@ const General = () => {
                 </section>
 
 
-                <h3>Clubcafé</h3>
+                <h2>Clubcafé</h2>
                 <p>De peter van de club is Maarten Boucquez en het clubcafé is <b>’t Kofschip</b>, Overpoortstraat 96 te Gent. De vorige eigenaar van ’t Kofschip en eveneens onze vorige peter was Antoine Govaert. De andere clubs in ’t Kofschip zijn reGent, Acantha en Ideefix.</p>
 
-                <h3>Doelgroepen</h3>
-                <p>Wij zijn een studentenvereniging opgericht voor de studierichtingen in de gezondheidszorg aan de Arteveldehogeschool Gent, zijn de Bachelor in de <em>verpleegkunde</em>, <em>vroedkunde</em>,{" "}
-                    <em>mondzorg</em>, <em>ergotherapie</em>, <em>logopedie</em>
-                    , <em>audiologie</em> en <em>podologie</em>.</p>
+                <h2>Doelgroepen</h2>
+                <p>Wij zijn een studentenvereniging opgericht voor de studierichtingen in de gezondheidszorg aan de Arteveldehogeschool Gent, zijn de Bachelor in de <em>verpleegkunde</em>, <em>vroedkunde</em>, <em>mondzorg</em>, <em>ergotherapie</em>, <em>logopedie</em>, <em>audiologie</em> en <em>podologie</em>. Natuurlijk zijn mensen uit andere studierichtingen ook welkom.</p>
 
-                <h3>Clublied</h3>
+                <h2>Clublied</h2>
                 <p>In gezondheidszorg, is’t geestig om te zijn. <br />
                 Wij zijn zo blij, we zijn zo blij <br />
                 We doen wat we willen, zo moet het zijn, <br />

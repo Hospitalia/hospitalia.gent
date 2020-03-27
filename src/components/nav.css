@@ -49,6 +49,7 @@ nav a, nav .submenu-parent {
     flex-direction: row;
     align-items: center;
     margin-right: 32px;
+    cursor: pointer;
 }
 nav .mobile-nav {
     display: none;

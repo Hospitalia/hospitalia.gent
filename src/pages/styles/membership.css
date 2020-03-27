@@ -1,0 +1,41 @@
+.membership p {
+    line-height: 1.5;
+    widows: 2;
+}
+
+.membership img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.membership .person {
+    width: 100%;
+}
+.membership .person img {
+    width: 64px;
+    height: 64px;
+}
+
+.membership .row img.large {
+    margin-left: 0;
+}
+
+.membership .row {
+    text-align: justify;
+}
+
+.membership .row img {
+    max-width: 50%;
+    margin-left: 32px;
+}
+
+@media only screen and (max-width: 956px) {
+    .row {
+        text-align: initial;
+        flex-direction: column;
+    }
+    .membership .row img {
+        max-width: 100%;
+        margin-left: 0;
+    }
+}

@@ -1,13 +1,13 @@
-p {
+.about p {
     line-height: 1.5;
     text-align: justify;
 }
 
-img {
+.about img {
     max-width: 100%;
 }
 
-.schild {
+.about .schild {
     margin-left: 16px;
     max-height: 256px;
 }
