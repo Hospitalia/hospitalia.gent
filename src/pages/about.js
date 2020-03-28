@@ -1,11 +1,11 @@
 import React from "react";
 
-import Layout from "../../components/layout";
-import SEO from "../../components/seo";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
-import "../styles/about.css"
+import "./styles/about.css"
 
-const General = () => {
+const About = () => {
     return (
         <Layout>
             <div className="container page about">
@@ -79,4 +79,4 @@ const General = () => {
     );
 };
 
-export default General;
+export default About;

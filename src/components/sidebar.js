@@ -12,7 +12,7 @@ const Sidebar = () => {
             <div className="submenu-parent">
                 Over ons
                 <div className="submenu">
-                    <Link to="/about/general">Algemeen</Link>
+                    <Link to="/about">Algemeen</Link>
                     <Link to="/about/praesidium">Praesidium</Link>
                     <Link to="/about/propraesidia">Propraesidia</Link>
                     <Link to="/about/statutes">Statuten</Link>

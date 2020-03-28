@@ -69,6 +69,7 @@ nav .mobile-nav {
 nav button {
     background: none;
     border: none;
+    user-select: none;
 }
 
 @media only screen and (max-width: 964px) {
