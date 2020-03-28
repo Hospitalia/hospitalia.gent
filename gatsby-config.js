@@ -1,5 +1,6 @@
 module.exports = {
     siteMetadata: {
+        siteUrl: `http://hospitalia.gent/`,
         title: `Studentenclub Hospitalia`,
         description: `Hospitalia is dé Gentse studentenclub voor studenten gezondheidszorg aan de Arteveldehogeschool!`,
         author: `@manaus_t`,
