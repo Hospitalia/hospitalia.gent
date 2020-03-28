@@ -39,6 +39,9 @@ Welcome to Hospitalia's website! This site is built using GatsbyJS.
 
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
+## Deployment
+
+Do not remove the .htaccess file in the root of the public website. This file is required for the Apache server.
 
 ## Contact
 
