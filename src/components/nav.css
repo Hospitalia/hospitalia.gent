@@ -8,16 +8,19 @@ nav {
     font-weight: 400;
     border-bottom: solid 1px var(--grey-light);
 }
+
 nav .container, nav .desktop-nav {
     padding: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
+
 nav img {
     height: 32px;
     margin-right: 8px;
 }
+
 nav .icon {
     height: 24px;
     margin: 0 0 0 4px;
@@ -26,6 +29,7 @@ nav .icon {
 nav .submenu-parent:hover .submenu{
     display: block;
 }
+
 nav .submenu {
     margin-right: 0;
     display: none;
@@ -36,6 +40,7 @@ nav .submenu {
     position: fixed;
     top: 56px;
 }
+
 nav .submenu a {
     width: 100%;
     box-sizing: border-box;
@@ -51,6 +56,7 @@ nav a, nav .submenu-parent {
     margin-right: 32px;
     cursor: pointer;
 }
+
 nav .mobile-nav {
     display: none;
     background: none;
@@ -69,7 +75,6 @@ nav button {
     nav .desktop-nav {
         display: none;
     }
-
     nav .mobile-nav {
         display: block;
     }
