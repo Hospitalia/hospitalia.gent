@@ -5,10 +5,10 @@ import SEO from "../components/seo";
 
 const NotFoundPage = () => (
     <Layout>
-        <div className="container page">
+        <div className="container page four-oh-four">
             <SEO title="404: Not found" />
-            <h1>NOT FOUND</h1>
-            <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+            <h1 className="large">404 Error</h1>
+            <p>De pagina die je zoekt bestaat niet. <a href="/">Klik hier</a> om terug te keren naar de homepagina.</p>
         </div>
     </Layout>
 );

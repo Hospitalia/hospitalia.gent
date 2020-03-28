@@ -35,6 +35,12 @@ h2::after {
     width: 128px;
     background-color: var(--blue);
 }
+.four-oh-four {
+    min-height: calc(100vh - 160px);
+}
+.four-oh-four .large {
+    font-size: 64px;
+}
 a {
     color: var(--blue-light);
     text-decoration: none;
