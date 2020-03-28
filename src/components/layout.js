@@ -1,8 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import Footer from "./footer";
 import Nav from "./nav";
+import Sidebar from "./Sidebar";
+import Footer from "./footer";
 
 import "./normalize.css";
 import "./main.css";
@@ -10,6 +11,7 @@ import "./main.css";
 const Layout = ({ children }) => {
     return (
         <>
+            <Sidebar />
             <Nav />
             <main>{children}</main>
             <Footer />

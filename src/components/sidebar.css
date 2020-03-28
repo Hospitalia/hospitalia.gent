@@ -1,0 +1,38 @@
+.sidebar {
+    display: none;
+    margin-top: -100vh;
+    transition: .2s;
+    border: solid 1px var(--grey-light);
+    box-shadow: 5px 10px 12px rgba(0, 0, 40, 0.15);
+}
+
+.sidebar.active {
+    margin-top: 56px;
+}
+
+.sidebar .submenu-parent {
+    flex-direction: column;
+    align-items: initial;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.sidebar .submenu {
+    display: block;
+    position: relative;
+    top: 0;
+    margin-left: 8px;
+    margin-top: 8px;
+    border: none;
+}
+
+.sidebar .submenu a{
+    padding: 8px 0;
+    font-size: 95%;
+}
+
+@media only screen and (max-width: 964px) {
+    .sidebar {
+        display: block;
+    }
+}
