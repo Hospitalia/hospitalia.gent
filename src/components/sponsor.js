@@ -8,7 +8,7 @@ const Sponsor = ({ name, detail, img, url, description, background }) => {
             </div>
             <div className="card">
                 <a href={url} target="_blank" rel="noopener noreferrer">
-                    <h3>{name} <img src="/assets/icons/link.png" /></h3>
+                    <h3>{name} <img src="/assets/icons/link.png" alt="Link" /></h3>
                     {detail ? <h4>{detail}</h4> : null}
                 </a>
                 <p>{description}</p>

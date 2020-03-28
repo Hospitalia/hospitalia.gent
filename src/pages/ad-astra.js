@@ -10,7 +10,7 @@ const AdAstra = () => {
                 <SEO title="Ad Astra" />
                 <h2>Ad Astra</h2>
 
-                <iframe className="statutes" src="/assets/ad_astra_sem1-2020.pdf"></iframe>
+                <iframe title="Ad Astra" className="statutes" src="/assets/ad_astra_sem1-2020.pdf"></iframe>
 
                 <a
                     target="_blank"

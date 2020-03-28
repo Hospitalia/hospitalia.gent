@@ -60,6 +60,11 @@ nav .mobile-nav {
     margin: 0;
 }
 
+nav button {
+    background: none;
+    border: none;
+}
+
 @media only screen and (max-width: 964px) {
     nav .desktop-nav {
         display: none;

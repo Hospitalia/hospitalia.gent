@@ -10,7 +10,7 @@ const Statutes = () => {
                 <SEO title="Statuten" />
                 <h2>Statuten</h2>
 
-                <iframe className="statutes" src="/assets/statuten_hospitalia.pdf"></iframe>
+                <iframe title="Statutes" className="statutes" src="/assets/statuten_hospitalia.pdf"></iframe>
 
                 <a
                     target="_blank"

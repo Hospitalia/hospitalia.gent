@@ -6,11 +6,6 @@ import { Link } from "gatsby";
 import "./sidebar.css";
 
 const Sidebar = () => {
-    function openDropdown(e) {
-        e.preventDefault()
-        document.querySelector(".sidebar .submenu").classList.toggle("open")
-    }
-
     return (
         <nav className="sidebar">
             <Link to="/membership">Lid worden</Link>
