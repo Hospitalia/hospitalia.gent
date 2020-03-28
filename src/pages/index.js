@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { useStaticQuery, graphql } from "gatsby";
 
 import Header from "../components/header";
 import Layout from "../components/layout";
@@ -9,15 +8,6 @@ import Person from "../components/person";
 import praesidium from "../content/praesidium.json";
 
 const IndexPage = () => {
-    const data = useStaticQuery(graphql`
-        query SiteTitleQuery {
-            site {
-                siteMetadata {
-                    title
-                }
-            }
-        }
-    `);
 
     const [praeses, setPraeses] = useState(null)
     const [temmer, setTemmer] = useState(null)
@@ -43,7 +33,7 @@ const IndexPage = () => {
     return (
         <Layout>
             <SEO title="Home" />
-            <Header siteTitle={data.site.siteMetadata.title} />
+            <Header />
             <section className="container card intro neumorphic">
                 <img
                     className="logo"
