@@ -26,19 +26,6 @@ module.exports = {
                 display: `minimal-ui`,
                 icon: `src/images/hospi-icon.png`, // This path is relative to the root of the site.
             },
-        },
-        {
-            resolve: `gatsby-plugin-prefetch-google-fonts`,
-            options: {
-                fonts: [
-                    {
-                        family: `Roboto`,
-                    },
-                    {
-                        family: `Oswald`,
-                    },
-                ],
-            },
-        },
+        }
     ],
 };
