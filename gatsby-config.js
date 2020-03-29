@@ -21,7 +21,7 @@ module.exports = {
             resolve: `gatsby-plugin-manifest`,
             options: {
                 name: `Studentenclub Hospitalia`,
-                short_name: `hospi-gent`,
+                short_name: `Hospitalia`,
                 start_url: `/`,
                 background_color: `#F3F7FA`,
                 theme_color: `#003C92`,
