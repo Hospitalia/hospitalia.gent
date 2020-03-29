@@ -45,7 +45,7 @@
         "img": "/assets/sponsors/arbre.png",
         "background": "/assets/sponsors/arbre-bg.jpg",
         "url": "http://larbre-food.be/",
-        "description": "Bij l'arbre kan je altijd terecht voor huisbereide broodjes, slaatjes of soep."
+        "description": "Bij l'arbre kan je altijd terecht voor huisbereide broodjes, slaatjes of soep. Zij voorzien ook soep voor op enkele van onze activiteiten."
     },
     {
         "name": "Stefano's Place",
@@ -78,5 +78,13 @@
         "background": "/assets/sponsors/trooper-bg.jpg",
         "url": "https://www.trooper.be/hospitalia",
         "description": "Als je jouw online bestellingen via Trooper plaatst steun je de club rechtstreeks, zonder daarvoor extra te moeten betalen!"
+    },
+    {
+        "name": "Van Eetvelde",
+        "detail": "Drankencentrale",
+        "img": "/assets/sponsors/van-eetvelde.png",
+        "background": "/assets/sponsors/van-eetvelde-bg.jpg",
+        "url": "https://www.drankenvaneetvelde.be/",
+        "description": "Van Eetvelde is een drankencentrale in Lokeren. Hier kunnen we terecht voor een uitgebreid gamma van bieren, frisdranken, wijnen, aperitieven, sterke dranken en toebehoren."
     }
 ]
