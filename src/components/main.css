@@ -291,6 +291,9 @@ iframe.statutes {
     .social {
         flex-direction: column;
     }
+    .socials a {
+        margin-bottom: 16px;
+    }
     .socials div {
         width: 100%;
     }

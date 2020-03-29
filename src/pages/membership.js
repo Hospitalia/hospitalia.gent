@@ -43,7 +43,9 @@ const Praesidium = () => {
 
                 <h2>Doop</h2>
                 <p>Dit is het meest memorabele moment van je studententijd. Hier worden banden gesmeed die voor de rest van je leven zullen meegaan. De doop vindt aan het begin van het academiejaar plaats. En geen zorgen, aan de blije gezichten op deze foto zie je dat het allemaal wel meevalt. Gewoon doen!</p>
-                <img src="/assets/doop.jpg" alt="Doop" />
+                <img src="/assets/doop-2019.jpg" alt="Doop 2019" />
+                <img src="/assets/doop-2018.jpg" alt="Doop 2018" />
+                <img src="/assets/doop-2017.jpg" alt="Doop 2017" />
             </div>
         </Layout>
     );

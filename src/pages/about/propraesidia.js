@@ -15,8 +15,7 @@ const Propraesidia = () => {
                 <SEO title="Propraesidia" />
                 <h2>Propraesidia</h2>
                 <p>
-                    Het praesidium is verantwoordelijk voor het organiseren van
-                    alle activiteiten.
+                    Deze personen hebben Hospitalia gevormd tot de club die we nu zijn.
                 </p>
                 <section className="propraesidia">
                     {propraesidia.map(el => (

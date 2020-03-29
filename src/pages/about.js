@@ -73,7 +73,7 @@ const About = () => {
                 Ja, iedereen wil vele dingen,<br />
                 waaronder zuipen en veel zingen.</p>
 
-                <p><b>Dit lied wordt gezongen op het ritme van Der Pappenheimer. Een voorbeeld van hoe het gezongen wordt vind je <a href="https://soundcloud.com/laurens-vandevyver/hospitalia-clublied-cantor-2016" target="_blank" rel="noopener noreferrer">hier</a>.</b></p>
+                <p><b>Dit lied wordt gezongen op het ritme van Der Pappenheimer. Een voorbeeld van hoe het gezongen wordt vind je <a href="https://soundcloud.com/studentenclub-hospitalia/clublied" target="_blank" rel="noopener noreferrer">hier</a>.</b></p>
             </div>
         </Layout>
     );

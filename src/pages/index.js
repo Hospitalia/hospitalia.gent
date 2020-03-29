@@ -174,14 +174,14 @@ const IndexPage = () => {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://www.snapchat.com/add/hospigent"
+                        href="https://www.instagram.com/hospi_alpaca_danny/"
                     >
                         <img
                             className="small rounded"
-                            src="/assets/social/snapchat.jpg"
+                            src="/assets/social/instagram.jpg"
                             alt="Snapchat"
                         />
-                        <p>hospigent</p>
+                        <p>hospi_alpaca_danny</p>
                     </a>
                 </div>
             </section>

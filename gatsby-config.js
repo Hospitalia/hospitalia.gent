@@ -3,6 +3,7 @@ module.exports = {
         siteUrl: `http://hospitalia.gent/`,
         title: `Studentenclub Hospitalia`,
         description: `Hospitalia is dé Gentse studentenclub voor studenten gezondheidszorg aan de Arteveldehogeschool!`,
+        image: "src/images/social-banner.jpg",
         author: `@manaus_t`,
     },
     plugins: [

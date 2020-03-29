@@ -3,14 +3,22 @@
     text-align: justify;
 }
 
+.about h2 {
+    margin-top: 64px;
+}
+
 .about img {
     max-width: 100%;
     object-fit: contain;
 }
 
 .about .schild {
-    margin-left: 16px;
+    margin-left: 32px;
     max-height: 256px;
+}
+
+.about div p:last-of-type {
+    margin-bottom: 0;
 }
 
 .row p{
