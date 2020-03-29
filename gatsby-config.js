@@ -25,7 +25,7 @@ module.exports = {
                 start_url: `/`,
                 background_color: `#F3F7FA`,
                 theme_color: `#003C92`,
-                display: `minimal-ui`,
+                display: `standalone`,
                 icon: `src/images/hospi-icon.png`, // This path is relative to the root of the site.
                 icons: [{
                     src: `favicon/icon-48x48.png`,
