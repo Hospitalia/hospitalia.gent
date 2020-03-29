@@ -41,7 +41,7 @@ Welcome to Hospitalia's website! This site is built using GatsbyJS.
 
 ## Deployment
 
-Do not remove the .htaccess file in the root of the public website. This file is required for the Apache server.
+Do not remove the robots.txt or .htaccess file in the root of the public website. These files are required for web crawlers and the Apache server respectively.
 
 ## Contact
 

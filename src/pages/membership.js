@@ -15,7 +15,6 @@ const Praesidium = () => {
         const temmerObj = praesidium.filter(obj => {
             return obj.title === "Schachtentemmer"
         })
-        console.log(temmerObj)
         setTemmer(temmerObj[0])
     }, [])
 
