@@ -35,7 +35,7 @@ const About = () => {
 
 
                 <h2>Clubcafé</h2>
-                <p>De peter van de club is Maarten Boucquez en het clubcafé is <b>’t Kofschip</b>, Overpoortstraat 96 te Gent. De vorige eigenaar van ’t Kofschip en eveneens onze vorige peter was Antoine Govaert. De andere clubs in ’t Kofschip zijn reGent, Acantha en Ideefix.</p>
+                <p>De peter van de club is Maarten Boucquez en het clubcafé is <b>’t Kofschip</b>, Overpoortstraat 96 te Gent. De vorige eigenaar van ’t Kofschip en eveneens onze vorige peter was Antoine Gevaert. De andere clubs in ’t Kofschip zijn reGent, Acantha en Ideefix.</p>
 
                 <h2>Doelgroepen</h2>
                 <p>Wij zijn een studentenvereniging opgericht voor de studierichtingen in de gezondheidszorg aan de Arteveldehogeschool Gent, zijn de Bachelor in de <em>verpleegkunde</em>, <em>vroedkunde</em>, <em>mondzorg</em>, <em>ergotherapie</em>, <em>logopedie</em>, <em>audiologie</em> en <em>podologie</em>. Natuurlijk zijn mensen uit andere studierichtingen ook welkom.</p>

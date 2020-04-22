@@ -86,5 +86,13 @@
         "background": "/assets/sponsors/van-eetvelde-bg.jpg",
         "url": "https://www.drankenvaneetvelde.be/",
         "description": "Van Eetvelde is een drankencentrale in Lokeren. Hier kunnen we terecht voor een uitgebreid gamma van bieren, frisdranken, wijnen, aperitieven, sterke dranken en toebehoren."
+    },
+    {
+        "name": "Equiben",
+        "detail": "Manege",
+        "img": "/assets/sponsors/equiben.png",
+        "background": "/assets/sponsors/equiben-bg.jpg",
+        "url": "http://www.equiben.be/welkom",
+        "description": "Dankzij de steun van Equiben kunnen wij goodiebags voorzien voor onze leden. Equiben begeleidt  studenten aan de hand van therapie met paarden."
     }
 ]
