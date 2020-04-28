@@ -3,7 +3,12 @@
     widows: 2;
 }
 
+.membership .text-description {
+    flex-shrink: 2;
+}
+
 .membership img {
+    flex-shrink: 1;
     max-width: 100%;
     width: 100%;
 }

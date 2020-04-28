@@ -24,7 +24,7 @@ const Praesidium = () => {
                 <SEO title="Lid worden" />
                 <h1>Lid worden</h1>
                 <div className="row">
-                    <div>
+                    <div className="text-description">
                         <p>De snelste manier om lid te worden van onze club is door contact op te nemen met onze Schachtentemmer. Je kan ook naar een van onze clubavonden komen, wij ontvangen je met open armen. Een lidkaart kan je altijd aankopen bij onze Quaestor voor €5, waarna je kan genieten van de voordelen van onze <a href="/sponsors">sponsors</a>. Dopen is dus niet verplicht.</p>
 
                         {temmer ? (

@@ -25,7 +25,7 @@ const About = () => {
 
                 <h2>Schild en vlag</h2>
                 <section className="row">
-                    <div>
+                    <div className="text-description">
                         <p>Het wapenschild van Hospitalia heeft de vorm van een heraldisch schild. Links zien we het rode kruis, dat staat voor vrijwillige hulpverlening aan zieken en gewonden. Dit rode kruis maakt deel uit een spuit, een veel gebruikt instrument in de gezondheidszorg. Rechts in het schild vinden we de clubkleuren. Blauw is de kleur van verpleegkundigen en bordeaux staat voor het bloed waar we mee te maken krijgen. Daarop staat het monogram getekend in het zwart. Dit is samengesteld uit de letters V, C, F, en vervolgens de eerste letter van onze club H. De letters staan voor <q>Vivat, crescat et floreat</q>, dit is Latijn voor <q>Leef, groei en bloei</q>.</p>
 
                         <p>Hospitalia heeft 2 schilden. Het eerste werd gemaakt in het jaar 2010-2011 door Jan D’Huyvetter (pro-senior reGent). Dit schild hangt omhoog in ons clubcafé. In 2018 kwam er een bij, gemaakt door Alain De Kegel. Daarnaast hebben we ook nog een vlag, gemaakt door Amélie Saverys in 2011-2012. Een aantal jaar later, kwam er door het praesidium 2015-2016 een nieuwe vlag bij.</p>

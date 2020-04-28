@@ -7,7 +7,11 @@
     margin-top: 64px;
 }
 
+.about .text-description {
+    flex-shrink: 2;
+}
 .about img {
+    flex-shrink: 1;
     max-width: 100%;
     object-fit: contain;
 }
@@ -34,5 +38,6 @@
     }
     .schild {
         margin: 0;
+        margin-top: 32px;
     }
 }
