@@ -41,21 +41,19 @@ const IndexPage = () => {
                     alt="Ad Astra logo"
                 />
                 <h3>
-                    1<span className="superscript">e</span> editie
+                    2<span className="superscript">e</span> editie
                 </h3>
 
                 <p>
-                    Ad Astra is ons semestrieel boekje. Deze allereerste editie
-                    is het resultaat van een samenwerking tussen enkele
-                    praesidiumleden, met de hulp van onze schachten en leden.
-                    Bekijk deze oogopslag van het eerste semester van 2019-2020
+                    Ad Astra is ons semestrieel boekje. Hierin reflecteren we, met de hulp van onze schachten en leden, over het afgelopen semester.
+                    Bekijk deze oogopslag van het tweede semester van 2019-2020
                     en download Ad Astra!
                 </p>
 
                 <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="/assets/ad_astra_sem1-2020.pdf"
+                    href="/assets/ad-astra/ad_astra_sem2-2020.pdf"
                     className="button"
                 >
                     <img

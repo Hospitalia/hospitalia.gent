@@ -1,0 +1,25 @@
+.ad-astra {
+    line-height: 28px;
+}
+
+.edition {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 8px;
+    border-bottom: solid 1px var(--grey-light);
+}
+
+.edition p {
+    margin: 0;
+}
+
+.edition img {
+    height: 24px;
+    width: 24px;
+    padding: 4px 16px;
+    border-radius: 4px;
+    background-color: var(--blue-light);
+    align-self: flex-end;
+}

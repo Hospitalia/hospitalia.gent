@@ -3,27 +3,28 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 
+import editions from "../content/ad-astra.json";
+
+import "./styles/ad-astra.css"
+
 const AdAstra = () => {
     return (
         <Layout>
-            <div className="container page">
+            <div className="container page ad-astra full-page ">
                 <SEO title="Ad Astra" />
                 <h2>Ad Astra</h2>
 
-                <iframe title="Ad Astra" className="statutes" src="/assets/ad_astra_sem1-2020.pdf"></iframe>
+                <p>Ad Astra is ons semestrieel boekje waarin we, met de hulp van onze schachten en leden, reflecteren over het afgelopen semester. Bekijk hier al onze vorige edities!</p>
 
-                <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="/assets/ad_astra_sem1-2020.pdf"
-                    className="button"
-                >
-                    <img
-                        src="/assets/icons/download.png"
-                        alt="Statuten PDF Download"
-                    />
-                    Download Ad Astra
-                </a>
+                <section className="list">
+                    {editions.map((edition, i) => (
+                        <a className="edition" href={`/assets/ad-astra/${edition.file_name}`} target="_blank">
+                            <span className="semester">{edition.semester.replace(/(^.)/, m => m.toUpperCase())} semester {edition.academic_year}</span>
+
+                            <img src="/assets/icons/download.png" alt="Download" />
+                        </a>
+                    ))}
+                </section>
             </div>
         </Layout>
     );

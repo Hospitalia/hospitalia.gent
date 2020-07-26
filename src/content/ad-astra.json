@@ -1,0 +1,14 @@
+[
+    {
+        "index": 1,
+        "semester": "eerste",
+        "academic_year": "2019-2020",
+        "file_name": "ad_astra_sem1-2020.pdf"
+    },
+    {
+        "index": 2,
+        "semester": "tweede",
+        "academic_year": "2019-2020",
+        "file_name": "ad_astra_sem2-2020.pdf"
+    }
+]
