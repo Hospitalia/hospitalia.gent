@@ -1,98 +1,86 @@
 [
     {
         "title": "Praeses",
-        "name": "Liäm De Kegel",
+        "name": "Joke Cools",
         "email": "praeses(at)hospitalia(dot)gent",
-        "image": "/assets/people/liam.jpg",
-        "education": "Grafische en Digitale Media",
-        "info": "Lid sinds 2017, Cantor in 2018-2019"
+        "image": "/assets/people/joke.jpg",
+        "education": "Verpleegkunde"
     },
     {
         "title": "Vice",
-        "name": "Joke Cools",
+        "name": "Elles Maertens",
         "email": "vice(at)hospitalia(dot)gent",
-        "image": "/assets/people/joke.jpg",
-        "education": "Verpleegkunde",
-        "info": "Lid sinds 2017, Feest in 2018-2019"
+        "image": "/assets/people/elles.jpg",
+        "education": "Ergotherapie"
     },
     {
         "title": "Quaestor",
-        "name": "Kiani Rubbrecht",
+        "name": "Christoph Boeykens",
         "email": "quaestor(at)hospitalia(dot)gent",
-        "image": "/assets/people/kiani.jpg",
-        "education": "Ergotherapie",
-        "info": "Lid sinds 2018"
+        "image": "/assets/people/chris.jpg",
+        "education": "Ergotherapie"
     },
     {
         "title": "Ab-Actis",
-        "name": "Max Schuddinck",
+        "name": "Carolijn Schaerlaken",
         "email": "ab-actis(at)hospitalia(dot)gent",
-        "image": "/assets/people/max.jpg",
-        "education": "Ergotherapie",
-        "info": "Lid sinds 2016, Schachtentemmer in 2017-2018"
+        "image": "/assets/people/carolijn.jpg",
+        "education": "Office Management"
     },
     {
         "title": "Schachtentemmer",
-        "name": "Christoph Boeykens",
+        "name": "Arne De Witte",
         "email": "temmer(at)hospitalia(dot)gent",
-        "image": "/assets/people/chris.jpg",
-        "education": "Ergotherapie",
-        "info": "Lid sinds 2018"
+        "image": "/assets/people/arne.jpg",
+        "education": "Journalistiek"
     },
     {
         "title": "Cantor",
-        "name": "Diana Janicka",
+        "name": "Leonie Meskens",
         "email": "cantor(at)hospitalia(dot)gent",
-        "image": "/assets/people/diana.jpg",
-        "education": "Verpleegkunde",
-        "info": "Lid sinds 2017, Schachtentemmer in 2018-2019"
+        "image": "/assets/people/leonie.jpg",
+        "education": "Leerkracht Lager Onderwijs"
     },
     {
         "title": "Zedenmeester",
-        "name": "Dagmar Das",
+        "name": "Liäm De Kegel",
         "email": "zeden(at)hospitalia(dot)gent",
-        "image": "/assets/people/dagmar.jpg",
-        "education": "Grafische en Digitale Media",
-        "info": "Lid sinds 2018"
+        "image": "/assets/people/liam.jpg",
+        "education": "Grafische en Digitale Media"
     },
     {
         "title": "PR",
-        "name": "Sieghe Parijs",
+        "name": "Dagmar Das",
         "email": "pr(at)hospitalia(dot)gent",
-        "image": "/assets/people/sieghe.jpg",
-        "education": "Ergotherapie",
-        "info": "Lid sinds 2018"
+        "image": "/assets/people/dagmar.jpg",
+        "education": "Grafische en Digitale Media"
     },
     {
         "title": "Cultuur",
-        "name": "Charlotte Sterkens",
+        "name": "Charissa Vissers",
         "email": "cultuur(at)hospitalia(dot)gent",
         "image": "/assets/people/charlotte.jpg",
-        "education": "Logopedie",
-        "info": "Lid sinds 2018"
+        "education": "Pedagogische wetenschappen"
     },
     {
         "title": "Feest",
-        "name": "Lisa Walraeve",
+        "name": "Joline Meerschaut",
         "email": "feest(at)hospitalia(dot)gent",
-        "image": "/assets/people/lisa.jpg",
-        "education": "Ergotherapie",
-        "info": "Lid sinds 2018"
+        "image": "/assets/people/joline.jpg",
+        "education": "Verpleegkunde"
     },
     {
         "title": "Sport",
         "name": "Sander Colpaert",
         "email": "sport(at)hospitalia(dot)gent",
         "image": "/assets/people/sander.jpg",
-        "education": "Leerkracht Secundair Onderwijs",
-        "info": "Lid sinds 2018"
+        "education": "Leerkracht Secundair Onderwijs"
     },
     {
         "title": "Web",
         "name": "Manaus Transez",
         "email": "web(at)hospitalia(dot)gent",
         "image": "/assets/people/manaus.jpg",
-        "education": "Grafische en Digitale Media",
-        "info": "Lid sinds 2018"
+        "education": "Grafische en Digitale Media"
     }
 ]

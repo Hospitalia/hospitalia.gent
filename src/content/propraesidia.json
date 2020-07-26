@@ -1,5 +1,58 @@
 [
     {
+        "year": "2019-2020",
+        "members": [
+            {
+                "title": "Praeses",
+                "name": "Liäm De Kegel"
+            },
+            {
+                "title": "Vice",
+                "name": "Joke Cools"
+            },
+            {
+                "title": "Quaestor",
+                "name": "Kiani Rubbrecht"
+            },
+            {
+                "title": "Ab-Actis",
+                "name": "Max Schuddinck"
+            },
+            {
+                "title": "Schachtentemmer",
+                "name": "Christoph Boeykens"
+            },
+            {
+                "title": "Cantor",
+                "name": "Diana Janicka"
+            },
+            {
+                "title": "Zedenmeester",
+                "name": "Dagmar Das"
+            },
+            {
+                "title": "PR",
+                "name": "Sieghe Parijs"
+            },
+            {
+                "title": "Cultuur",
+                "name": "Charlotte Sterkens"
+            },
+            {
+                "title": "Feest",
+                "name": "Lisa Walraeve"
+            },
+            {
+                "title": "Sport",
+                "name": "Sander Colpaert"
+            },
+            {
+                "title": "Web",
+                "name": "Manaus Transez"
+            }
+        ]
+    },
+    {
         "year": "2018-2019",
         "members": [
             {

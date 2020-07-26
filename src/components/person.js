@@ -1,6 +1,6 @@
 import React from "react";
 
-const Person = ({ title, name, email, image, info, education, large }) => {
+const Person = ({ title, name, email, image, education, large }) => {
     return (
         <div className="person">
             {image ? (
@@ -19,7 +19,6 @@ const Person = ({ title, name, email, image, info, education, large }) => {
                     </a>
                 ) : null}
                 <p>{education}</p>
-                <p className="light">{info}</p>
             </div>
         </div>
     );

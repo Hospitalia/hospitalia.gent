@@ -86,10 +86,10 @@ const IndexPage = () => {
 
                 <p>
                     Als je sponsor bent of je hebt interesse om met ons samen te
-                    werken, dan hoort onze praeses Liäm graag meer van je. Voor
+                    werken, dan hoort onze praeses Joke graag meer van je. Voor
                     vragen over de doop of lidmaatschap kan je terecht bij onze
-                    schachtentemmer Christoph. Voor andere vragen kan onze P.R.
-                    Sieghe je de nodige antwoorden bezorgen.
+                    schachtentemmer Arne. Voor andere vragen kan onze P.R.
+                    Dagmar je de nodige antwoorden bezorgen.
                 </p>
 
                 <div className="socials">
