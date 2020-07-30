@@ -8,27 +8,26 @@ import Person from "../components/person";
 import praesidium from "../content/praesidium.json";
 
 const IndexPage = () => {
-
-    const [praeses, setPraeses] = useState(null)
-    const [temmer, setTemmer] = useState(null)
-    const [pr, setPR] = useState(null)
+    const [praeses, setPraeses] = useState(null);
+    const [temmer, setTemmer] = useState(null);
+    const [pr, setPR] = useState(null);
 
     useEffect(() => {
         const praesesObj = praesidium.filter(obj => {
-            return obj.title === "Praeses"
-        })
-        setPraeses(praesesObj[0])
+            return obj.title === "Praeses";
+        });
+        setPraeses(praesesObj[0]);
 
         const temmerObj = praesidium.filter(obj => {
-            return obj.title === "Schachtentemmer"
-        })
-        setTemmer(temmerObj[0])
+            return obj.title === "Schachtentemmer";
+        });
+        setTemmer(temmerObj[0]);
 
         const prObj = praesidium.filter(obj => {
-            return obj.title === "PR"
-        })
-        setPR(prObj[0])
-    }, [])
+            return obj.title === "PR";
+        });
+        setPR(prObj[0]);
+    }, []);
 
     return (
         <Layout>
@@ -45,9 +44,10 @@ const IndexPage = () => {
                 </h3>
 
                 <p>
-                    Ad Astra is ons semestrieel boekje. Hierin reflecteren we, met de hulp van onze schachten en leden, over het afgelopen semester.
-                    Bekijk deze oogopslag van het tweede semester van 2019-2020
-                    en download Ad Astra!
+                    Ad Astra is ons semestrieel boekje. Hierin reflecteren we,
+                    met de hulp van onze schachten en leden, over het afgelopen
+                    semester. Bekijk deze oogopslag van het tweede semester van
+                    2019-2020 en download Ad Astra!
                 </p>
 
                 <a
@@ -86,14 +86,14 @@ const IndexPage = () => {
 
                 <p>
                     Als je sponsor bent of je hebt interesse om met ons samen te
-                    werken, dan hoort onze praeses Joke graag meer van je. Voor
-                    vragen over de doop of lidmaatschap kan je terecht bij onze
-                    schachtentemmer Arne. Voor andere vragen kan onze P.R.
-                    Dagmar je de nodige antwoorden bezorgen.
+                    werken, dan hoort onze praeses {praeses ? praeses.name : ""}{" "}
+                    graag meer van je. Voor vragen over de doop of lidmaatschap
+                    kan je terecht bij {temmer ? temmer.name : ""}, onze
+                    schachtentemmer. Voor andere vragen kan onze P.R.{" "}
+                    {pr ? pr.name : ""} je de nodige antwoorden bezorgen.
                 </p>
 
                 <div className="socials">
-
                     {praeses ? (
                         <Person
                             title={praeses.title}
