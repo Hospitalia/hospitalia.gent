@@ -18,7 +18,7 @@ const Nav = () => {
             <div className="container">
                 <Link to="/">
                     <img
-                        src="http://hospitalia.gent/assets/schild.png"
+                        src="/assets/schild.png"
                         alt="Hospitalia"
                     />
                 Hospitalia

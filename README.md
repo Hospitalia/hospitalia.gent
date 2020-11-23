@@ -18,13 +18,13 @@ Welcome to Hospitalia's website! This site is built using GatsbyJS.
     npm install -g gatsby-cli
     ```
 
-2.  **Clone the repository**
+2. **Clone the repository**
 
     ```shell
     git clone https://github.com/Hospitalia/hospitalia.gent.git
     ```
 
-3.  **Start developing.**
+3. **Start developing.**
 
     Navigate into the site’s directory and start it up.
 
@@ -33,7 +33,7 @@ Welcome to Hospitalia's website! This site is built using GatsbyJS.
     gatsby develop
     ```
 
-4.  **Open the source code and start editing!**
+4. **Open the source code and start editing!**
 
     The site is now running at `http://localhost:8000`!
 
@@ -41,6 +41,11 @@ Welcome to Hospitalia's website! This site is built using GatsbyJS.
 
 ## Deployment
 
+```shell
+gatsby build
+```
+
+The contents of the `/public` folder should be transfered through FTP to the hosting.
 Do not remove the robots.txt or .htaccess file in the root of the public website. These files are required for web crawlers and the Apache server respectively.
 
 ## Contact
